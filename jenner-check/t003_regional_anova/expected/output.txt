@@ -1,0 +1,12 @@
+
+Dependent Variable: stand_rate
+
+Source                  DF  Sum of Squares     Mean Square    F Value     Pr > F
+--------------------------------------------------------------------------------
+tname                    2          4.3467          2.1733      85.04     0.0000
+Error                    9          0.2300          0.0256          .          .
+Corrected Total         11          4.5767                          .          .
+
+R-Square: 0.9497  Root MSE: 0.1599  Mean: 4.4167
+
+

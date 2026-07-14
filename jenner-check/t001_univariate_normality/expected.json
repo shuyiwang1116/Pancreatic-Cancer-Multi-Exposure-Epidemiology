@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-14T10:46:27Z",
+  "_captured_run_id": "r_65fa7f657b6645fa956394858ae589d4",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 15 rows from DATALINES.",
+    "NOTE: Wrote a.PGIRL2 (15 rows, 1 columns).",
+    "NOTE: PROC UNIVARIATE"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

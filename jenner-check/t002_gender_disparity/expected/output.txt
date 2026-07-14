@@ -1,0 +1,55 @@
+               The TTEST Procedure                
+              Variable:  stand_rate               
+
+sex                N      Mean   Std Dev   Std Err
+----------  --------  --------  --------  --------
+M                  7    5.4571    0.4429    0.1674
+F                  7    4.2286    0.2563    0.0969
+Diff (1-2)              1.2286                    
+
+sex         Lower CL Mean      Mean  Upper CL Mean  Lower CL Std Dev   Std Dev  Upper CL Std Dev
+----------  -------------  --------  -------------  ----------------  --------  ----------------
+M                  5.0475    5.4571         5.8668            0.2854    0.4429            0.9754
+F                  3.9915    4.2286         4.4657            0.1652    0.2563            0.5645
+Diff (1-2)         0.8071    1.2286         1.6500            0.2595    0.3619            0.5974
+
+Method         Variances        DF   t Value  Pr > |t|
+-------------  ---------  --------  --------  --------
+Pooled         Equal            12      6.35    <.0001
+Satterthwaite  Unequal         9.6      6.35    <.0001
+
+   Equality of Variances    
+
+Method     F Value    Pr > F
+--------  --------  --------
+Folded F      2.99    0.2090
+
+                              The NPAR1WAY Procedure                              
+               Wilcoxon Scores (Rank Sums) for Variable stand_rate                
+
+sex              N  Sum of Scores  Expected Under H0  Std Dev Under H0  Mean Score
+--------  --------  -------------  -----------------  ----------------  ----------
+M                7        77.0000            52.5000            7.8300     11.0000
+F                7        28.0000            52.5000            7.8300      4.0000
+
+   Kruskal-Wallis Test   
+
+Statistic           Value
+---------------  --------
+Chi-Square         9.8000
+DF                      1
+Pr > Chi-Square    0.0017
+P Value            0.0017
+
+         Wilcoxon Two-Sample Test         
+
+Statistic                            Value
+--------------------------------  --------
+S                                  77.0000
+Expected Under H0                  52.5000
+Std Dev Under H0                    7.8262
+Z                                   3.1305
+Two-Sided Pr > |Z|                  0.0017
+P Value                             0.0017
+Exact Two-Sided Pr >= |S - Mean|    0.0010
+

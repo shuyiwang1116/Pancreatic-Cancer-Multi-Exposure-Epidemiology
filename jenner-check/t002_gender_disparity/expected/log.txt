@@ -1,0 +1,20 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260714T043649Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: Library A assigned path=/tmp/work/r_1011269e438a45d4bd6d82b27723c3bf/work/bb82ee32-8a0f-4202-931b-c9ab623e08e0.
+NOTE: DATA a.pancreatic_nsex2
+
+NOTE: Processing inline DATALINES (1 lines)
+
+NOTE: Read 14 rows from DATALINES.
+NOTE: Wrote a.pancreatic_nsex2 (14 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC TTEST data=a.pancreatic_nsex2
+
+NOTE: ODS plot written: ttest_summary.spec.json
+NOTE: PROC TTEST ODS Graphics generated.
+NOTE: PROC TTEST statement used.
+NOTE: PROC NPAR1WAY data=a.pancreatic_nsex2
+
