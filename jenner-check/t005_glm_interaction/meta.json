@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_glm_interaction",
+  "source_file": "SAS_scripts/analysis_logic.sas",
+  "source_blob_sha": "ff1d5c5670849312ab7d3fce95bd96625400c326",
+  "source_commit": "cba5fb4605c981b89be45ed773d060df86566e22",
+  "notes": "PROC GLM diet x PM2.5 interaction model SRATE = pcookwt_AVG pm25_mean pcookwt_AVG*pm25_mean / ss3 from A.pgirl1; real dataset withheld, replaced with 12-row synthetic sample (SRATE, pcookwt_AVG, pm25_mean)."
+}

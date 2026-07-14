@@ -1,0 +1,111 @@
+                                                The UNIVARIATE Procedure
+                                                 Variable:  STAND_RATE
+
+                                                        Moments
+
+N                                 15    Sum Weights                       15
+Mean                        4.833333    Sum Observations           72.500000
+Std Deviation               0.825198    Variance                    0.680952
+Skewness                    0.138034    Kurtosis                   -1.123589
+Uncorrected SS            359.950000    Corrected SS                9.533333
+Coeff Variation            17.073070    Std Error Mean              0.213065
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      4.833333  Std Deviation  0.825198
+Median    4.900000  Variance       0.680952
+Mode             .  Range          2.600000
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      3.600000
+1%          3.600000
+5%          3.600000
+10%         3.800000
+25% Q1      4.100000
+50% Median  4.900000
+75% Q3      5.500000
+90%         6.000000
+95%         6.200000
+99%         6.200000
+100% Max    6.200000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     3.600000  Value     5.300000
+Value     3.800000  Value     5.500000
+Value     3.900000  Value     5.800000
+Value     4.100000  Value     6.000000
+Value     4.200000  Value     6.200000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.960995114  0.709689908
+Kolmogorov-Smirnov  0.111938871  0.981009319
+Anderson-Darling    0.196273705      0.15
+Cramer-von Mises    0.025799125  0.990284016
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         22.684750431         0
+Sign                      7.5  0.000061035
+Signed Rank               120  0.00065506
+
+
+                    Stem Leaf                     #  Boxplot
+                  3 |678                    3   
+                  4 |02479                  5  +
+                  5 |00257                  5  +
+                  6 |02                     2   
+                     ----+----+----+----+
+               Multiply Stem.Leaf by 1
+
+
+
+                      Schematic Plots
+        Variable=STAND_RATE
+           |     +-----+
+           |     |     |
+        3.6-----*-----6.2   (box plot)
+           |     |     |
+           |     +-----+
+
+
+
+                         Normal Probability Plot
+       6.2+                                         +*
+          |                                     *+++
+          |                                  * ++
+          |                                * ++
+          |                              *+++
+          |                            *++
+          |                         *+*+
+          |                       *++
+          |                     +++
+          |                   ++ *
+          |                 +* *
+          |              ++*
+          |            +*
+       3.6+        *+++
+           +----+----+----+----+----+----+----+----+----+----+
+               -2        -1         0        +1        +2
+

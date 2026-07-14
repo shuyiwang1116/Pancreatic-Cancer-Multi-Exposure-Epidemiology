@@ -1,0 +1,18 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260714T043649Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: Library A assigned path=/tmp/work/r_827a9d552ca2484d800018333316f108/work/931c652c-2447-4243-ac76-05ebc04786d5.
+NOTE: DATA a.pboy2
+
+NOTE: Processing inline DATALINES (1 lines)
+
+NOTE: Read 12 rows from DATALINES.
+NOTE: Wrote a.pboy2 (12 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC ANOVA data=a.pboy2
+
+NOTE: ODS plot written: anova_boxplot.spec.json
+NOTE: ODS plot written: anova_diagnostics.spec.json
+NOTE: PROC ANOVA: 12 observations, 1 effects analyzed

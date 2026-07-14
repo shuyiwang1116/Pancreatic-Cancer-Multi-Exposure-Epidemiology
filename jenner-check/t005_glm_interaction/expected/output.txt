@@ -1,0 +1,13 @@
+                               The GLM Procedure                                
+                           Dependent Variable: srate                            
+
+Source                       DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------------  --------  --------------  -----------  --------  --------
+pcookwt_AVG                   1         0.00456      0.00456      0.75    0.4125
+pm25_mean                     1         0.00069      0.00069      0.11    0.7447
+pcookwt_AVG:pm25_mean         1         0.00096      0.00096      0.16    0.7028
+Error                         8         0.04885      0.00611                    
+
+Root MSE           0.07814    R-Square            0.9785
+Adj R-Sq            0.9704
+

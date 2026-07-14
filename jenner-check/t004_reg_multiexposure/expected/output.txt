@@ -1,0 +1,70 @@
+
+strid1=1
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                               Dependent Variable: SRATE                                                
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   2         0.17127      0.08564    235.50    0.0042
+Error                   2         0.00073      0.00036                    
+Corrected Total         4         0.17200                                 
+
+Root MSE           0.01907    R-Square            0.9958
+Dependent Mean       4.34000    Adj R-Sq            0.9915
+Coeff Var          0.43938
+
+                                                          Parameter Estimates                                                           
+
+Variable           DF  Estimate  Standard Error   t Value  Pr > |t|  Standardized Estimate  95% Confidence Limits  95% Confidence Limits
+-----------  --------  --------  --------------  --------  --------  ---------------------  ---------------------  ---------------------
+Intercept           1   0.06364         0.19925      0.32    0.7797                0.00000               -0.79369                0.92096
+pcookwt_AVG         1   0.02273         0.00909      2.50    0.1296                0.66847               -0.01639                0.06184
+o3_mean             1   0.04364         0.03507      1.24    0.3394                0.33272               -0.10725                0.19452
+
+             Output Statistics              
+
+     Obs  Dep Var SRATE  Predicted  Residual
+--------  -------------  ---------  --------
+       1         4.2000     4.1873    0.0127
+       2         4.5000     4.5018   -0.0018
+       3         4.1000     4.0982    0.0018
+       4         4.6000     4.5909    0.0091
+       5         4.3000     4.3218   -0.0218
+
+
+strid1=2
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                               Dependent Variable: SRATE                                                
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   2         0.09455      0.04727     17.33    0.0545
+Error                   2         0.00545      0.00273                    
+Corrected Total         4         0.10000                                 
+
+Root MSE           0.05222    R-Square            0.9455
+Dependent Mean       5.10000    Adj R-Sq            0.8909
+Coeff Var          1.02399
+
+                                                          Parameter Estimates                                                           
+
+Variable           DF  Estimate  Standard Error   t Value  Pr > |t|  Standardized Estimate  95% Confidence Limits  95% Confidence Limits
+-----------  --------  --------  --------------  --------  --------  ---------------------  ---------------------  ---------------------
+Intercept           1  -2.45000         1.39398     -1.76    0.2209                0.00000               -8.44781                3.54781
+pcookwt_AVG         1   0.04091         0.02946      1.39    0.2994                0.71795               -0.08584                0.16766
+o3_mean             1   0.05000         0.09770      0.51    0.6597                0.26458               -0.37037                0.47037
+
+             Output Statistics              
+
+     Obs  Dep Var SRATE  Predicted  Residual
+--------  -------------  ---------  --------
+       1         5.1000     5.0773    0.0227
+       2         5.3000     5.3318   -0.0318
+       3         4.9000     4.9455   -0.0455
+       4         5.2000     5.1591    0.0409
+       5         5.0000     4.9864    0.0136
+

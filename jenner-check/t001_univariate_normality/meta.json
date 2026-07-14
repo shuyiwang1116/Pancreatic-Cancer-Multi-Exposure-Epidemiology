@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_univariate_normality",
+  "source_file": "SAS_scripts/analysis_logic.sas",
+  "source_blob_sha": "ff1d5c5670849312ab7d3fce95bd96625400c326",
+  "source_commit": "cba5fb4605c981b89be45ed773d060df86566e22",
+  "notes": "PROC UNIVARIATE normality/EDA on STAND_RATE from A.PGIRL2; real dataset withheld for privacy, replaced with 15-row synthetic incidence-rate sample of matching shape."
+}

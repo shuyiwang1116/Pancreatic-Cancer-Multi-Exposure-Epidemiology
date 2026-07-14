@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-14T10:46:27Z",
+  "_captured_run_id": "r_1011269e438a45d4bd6d82b27723c3bf",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote a.pancreatic_nsex2 (14 rows, 2 columns).",
+    "NOTE: PROC TTEST data=a.pancreatic_nsex2",
+    "NOTE: PROC NPAR1WAY data=a.pancreatic_nsex2"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

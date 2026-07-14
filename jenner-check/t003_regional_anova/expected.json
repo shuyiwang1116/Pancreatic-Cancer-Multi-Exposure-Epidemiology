@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-14T10:46:27Z",
+  "_captured_run_id": "r_827a9d552ca2484d800018333316f108",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote a.pboy2 (12 rows, 2 columns).",
+    "NOTE: PROC ANOVA data=a.pboy2",
+    "NOTE: PROC ANOVA: 12 observations, 1 effects analyzed"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

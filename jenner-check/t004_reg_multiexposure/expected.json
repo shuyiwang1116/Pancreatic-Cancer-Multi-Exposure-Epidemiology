@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-07-14T10:46:27Z",
+  "_captured_run_id": "r_33631bfdeea841e5869ebd8c07ac7600",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote a.pboy1 (10 rows, 4 columns).",
+    "NOTE: PROC SORT data=a.pboy1",
+    "NOTE: PROC REG data=A.Pboy1",
+    "NOTE: PROC REG: processed 2 job(s) in batch"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

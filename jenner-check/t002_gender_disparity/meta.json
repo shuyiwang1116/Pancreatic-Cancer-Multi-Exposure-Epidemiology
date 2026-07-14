@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_gender_disparity",
+  "source_file": "SAS_scripts/analysis_logic.sas",
+  "source_blob_sha": "ff1d5c5670849312ab7d3fce95bd96625400c326",
+  "source_commit": "cba5fb4605c981b89be45ed773d060df86566e22",
+  "notes": "PROC TTEST + PROC NPAR1WAY WILCOXON gender-disparity test on stand_rate by sex from A.pancreatic_nsex2; real dataset withheld, replaced with 14-row synthetic sample (sex, stand_rate)."
+}

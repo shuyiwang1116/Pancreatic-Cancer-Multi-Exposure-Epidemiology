@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_reg_multiexposure",
+  "source_file": "SAS_scripts/analysis_logic.sas",
+  "source_blob_sha": "ff1d5c5670849312ab7d3fce95bd96625400c326",
+  "source_commit": "cba5fb4605c981b89be45ed773d060df86566e22",
+  "notes": "PROC SORT + by-group PROC REG of SRATE on pcookwt_AVG (meat) and o3_mean (ozone) from A.pboy1 with STB/CLB; real dataset withheld, replaced with 10-row synthetic sample (strid1, SRATE, pcookwt_AVG, o3_mean)."
+}
